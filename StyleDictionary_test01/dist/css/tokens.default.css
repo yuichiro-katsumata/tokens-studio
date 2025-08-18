@@ -1,0 +1,200 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --semanticsColorPrimaryLightest: #bbdefa;
+  --semanticsColorPrimaryLighten: #91caf7;
+  --semanticsColorPrimaryLight: #2696f0;
+  --semanticsColorPrimaryBase: #2288e2;
+  --semanticsColorPrimaryDark: #1c76cf;
+  --semanticsColorPrimaryDarken: #1765bd;
+  --semanticsColorPrimaryDarkest: #0e489e;
+  --semanticsColorSecondaryLightest: #ace5dd;
+  --semanticsColorSecondaryLighten: #71d5c7;
+  --semanticsColorSecondaryLight: #00a78c;
+  --semanticsColorSecondaryBase: #00997f;
+  --semanticsColorSecondaryDark: #00896e;
+  --semanticsColorSecondaryDarken: #00785f;
+  --semanticsColorSecondaryDarkest: #005b42;
+  --semanticsColorInfoLightest: #bbdefa;
+  --semanticsColorInfoLighten: #91caf7;
+  --semanticsColorInfoLight: #2696f0;
+  --semanticsColorInfoBase: #2288e2;
+  --semanticsColorInfoDark: #1c76cf;
+  --semanticsColorInfoDarken: #1765bd;
+  --semanticsColorInfoDarkest: #0e489e;
+  --semanticsColorSuccessLightest: #c6eec7;
+  --semanticsColorSuccessLighten: #a0e4a2;
+  --semanticsColorSuccessLight: #18c738;
+  --semanticsColorSuccessBase: #00b72e;
+  --semanticsColorSuccessDark: #00a421;
+  --semanticsColorSuccessDarken: #009311;
+  --semanticsColorSuccessDarkest: #006600;
+  --semanticsColorWarningLightest: #f5f1bf;
+  --semanticsColorWarningLighten: #efe795;
+  --semanticsColorWarningLight: #e1d22f;
+  --semanticsColorWarningBase: #dfc02a;
+  --semanticsColorWarningDark: #dcaa22;
+  --semanticsColorWarningDarken: #d9931a;
+  --semanticsColorWarningDarkest: #d36d09;
+  --semanticsColorErrorLightest: #ffcbd1;
+  --semanticsColorErrorLighten: #f39697;
+  --semanticsColorErrorLight: #f54949;
+  --semanticsColorErrorBase: #fa332d;
+  --semanticsColorErrorDark: #eb272c;
+  --semanticsColorErrorDarken: #d61a26;
+  --semanticsColorErrorDarkest: #be0011;
+  --semanticsColorNeutralLightest: #f0f0f4;
+  --semanticsColorNeutralLighten: #e6e6ea;
+  --semanticsColorNeutralLight: #909094;
+  --semanticsColorNeutralBase: #68686c;
+  --semanticsColorNeutralDark: #555559;
+  --semanticsColorNeutralDarken: #37373a;
+  --semanticsColorNeutralDarkest: #17171a;
+  --semanticsColorTextPrimary: #262629; /** 標準の文字色 */
+  --semanticsColorTextSecondary: #909094; /** 補足文の文字色 */
+  --semanticsColorTextDisabled: #b0b0b5; /** 非活性時の文字色 */
+  --semanticsColorTextOnPrimary: #ffffff; /** 標準の文字色の反転 */
+  --semanticsColorTextLinkDefault: #1155ad; /** 標準のテキストリンクの色 */
+  --semanticsColorTextLinkHover: #1765bd; /** ホバー時のテキストリンクの色 */
+  --semanticsColorTextLinkVisited: #0e489e; /** 訪問済みのテキストリンクの色 */
+  --semanticsColorLayerBackground: #f0f0f4; /** 標準の背景色 */
+  --semanticsColorLayerSurface: #ffffff; /** 標準の前景色 */
+  --semanticsColorLayerOverlay: rgba(0, 0, 0, 0.4); /** ダイアログなどに使用する背面レイヤー */
+  --semanticsColorBorderDefault: #b0b0b5; /** 境界線に使用する色 */
+  --semanticsColorBorderDisabled: #e6e6ea; /** 非活性時の境界線に使用する色 */
+  --semanticsColorBorderNegative: #fa332d; /** エラー時の境界線に使用する色 */
+  --semanticsColorBorderOutline: #1c76cf; /** アウトラインの境界線に使用する色 */
+  --semanticsTypographyDisplayLargeNormal: 400 40px/1.2 'Noto Sans JP';
+  --semanticsTypographyDisplayLargeStrong: 700 40px/1.2 'Noto Sans JP';
+  --semanticsTypographyDisplayMediumNormal: 400 36px/1.2 'Noto Sans JP';
+  --semanticsTypographyDisplayMediumStrong: 700 36px/1.2 'Noto Sans JP';
+  --semanticsTypographyDisplaySmallStrong: 700 32px/1.2 'Noto Sans JP';
+  --semanticsTypographyDisplaySmallNormal: 400 32px/1.2 'Noto Sans JP';
+  --semanticsTypographyHeadlineLargeNormal: 400 28px/1.2 'Noto Sans JP';
+  --semanticsTypographyHeadlineLargeStrong: 700 28px/1.2 'Noto Sans JP';
+  --semanticsTypographyHeadlineMediumNormal: 400 24px/1.2 'Noto Sans JP';
+  --semanticsTypographyHeadlineMediumStrong: 700 24px/1.2 'Noto Sans JP';
+  --semanticsTypographyHeadlineSmallNormal: 400 20px/1.4 'Noto Sans JP';
+  --semanticsTypographyHeadlineSmallStrong: 700 20px/1.4 'Noto Sans JP';
+  --semanticsTypographyBodyLargeNormal: 400 18px/1.4 'Noto Sans JP';
+  --semanticsTypographyBodyLargeStrong: 700 18px/1.4 'Noto Sans JP';
+  --semanticsTypographyBodyMediumNormal: 400 16px/1.6 'Noto Sans JP';
+  --semanticsTypographyBodyMediumStrong: 700 16px/1.6 'Noto Sans JP';
+  --semanticsTypographyBodySmallNormal: 400 14px/1.6 'Noto Sans JP';
+  --semanticsTypographyBodySmallStrong: 700 14px/1.6 'Noto Sans JP';
+  --semanticsTypographyCaptionLargeNormal: 400 12px/1.2 'Noto Sans JP';
+  --semanticsTypographyCaptionLargeStrong: 700 12px/1.2 'Noto Sans JP';
+  --semanticsTypographyCaptionMediumNormal: 400 11px/1.2 'Noto Sans JP';
+  --semanticsTypographyCaptionMediumStrong: 700 11px/1.2 'Noto Sans JP';
+  --semanticsTypographyCaptionSmallNormal: 400 10px/1.2 'Noto Sans JP';
+  --semanticsTypographyCaptionSmallStrong: 700 10px/1.2 'Noto Sans JP';
+  --semanticsBorderDefault: 1px solid #b0b0b5;
+  --semanticsBorderDisabled: 1px solid #e6e6ea;
+  --semanticsBorderNegative: 1px solid #fa332d;
+  --semanticsBorderOutline: 2px solid #1c76cf;
+  --semanticsSpacingNone: 0px;
+  --semanticsSpacingFiveExtraSmall: 4px;
+  --semanticsSpacingFourExtraSmall: 8px;
+  --semanticsSpacingThreeExtraSmall: 12px;
+  --semanticsSpacingTwoExtraSmall: 16px;
+  --semanticsSpacingExtraSmall: 24px;
+  --semanticsSpacingSmall: 28px;
+  --semanticsSpacingMedium: 32px;
+  --semanticsSpacingLarge: 36px;
+  --semanticsSpacingExtraLarge: 40px;
+  --semanticsSpacingTwoExtraLarge: 44px;
+  --semanticsSpacingThreeExtraLarge: 48px;
+  --semanticsSpacingFourExtraLarge: 56px;
+  --semanticsSpacingFiveExtraLarge: 64px;
+  --semanticsRadiusNone: 0px; /** 角丸を適用しない直角なスタイル */
+  --semanticsRadiusSmall: 2px; /** 小さな角丸 */
+  --semanticsRadiusMedium: 4px; /** 標準的な角丸 */
+  --semanticsRadiusLarge: 6px; /** 大きな角丸 */
+  --semanticsRadiusFull: 9999px; /** 円形またはピル形状を作るための角丸 */
+  --semanticsElevationNone: 0 0 0 0 #fff;
+  --semanticsElevationLow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  --semanticsElevationMedium: 0 3px 7px 0 rgba(0,0,0,0.2);
+  --semanticsElevationHigh: 0 4px 10px 0 rgba(0,0,0,0.3);
+  --componentsSpinnerSizeSmall: 16px;
+  --componentsSpinnerSizeMedium: 24px;
+  --componentsSpinnerSizeLarge: 32px;
+  --componentsIconSizeSmall: 16px;
+  --componentsIconSizeMedium: 24px;
+  --componentsIconSizeLarge: 32px;
+  --componentsButtonColorPrimaryFillBackgroundDefault: #2288e2;
+  --componentsButtonColorPrimaryFillBackgroundIsHover: #2696f0;
+  --componentsButtonColorPrimaryFillBackgroundIsActive: #1c76cf;
+  --componentsButtonColorPrimaryFillBackgroundIsDisabled: #909094;
+  --componentsButtonColorPrimaryFillBorderDefault: #1c76cf;
+  --componentsButtonColorPrimaryFillBorderIsHover: #2288e2;
+  --componentsButtonColorPrimaryFillBorderIsActive: #1765bd;
+  --componentsButtonColorPrimaryFillBorderIsDisabled: #909094;
+  --componentsButtonColorPrimaryFillTextDefault: #ffffff;
+  --componentsButtonColorPrimaryOutlineBackgroundDefault: #ffffff;
+  --componentsButtonColorPrimaryOutlineBackgroundIsHover: #bbdefa;
+  --componentsButtonColorPrimaryOutlineBackgroundIsActive: #91caf7;
+  --componentsButtonColorPrimaryOutlineBackgroundIsDisabled: #ffffff;
+  --componentsButtonColorPrimaryOutlineBorderDefault: #2696f0;
+  --componentsButtonColorPrimaryOutlineBorderIsHover: #2288e2;
+  --componentsButtonColorPrimaryOutlineBorderIsActive: #1c76cf;
+  --componentsButtonColorPrimaryOutlineBorderIsDisabled: #909094;
+  --componentsButtonColorPrimaryOutlineTextDefault: #0e489e;
+  --componentsButtonColorPrimaryTextBackgroundDefault: rgba(255, 255, 255, 0);
+  --componentsButtonColorPrimaryTextBackgroundIsHover: #bbdefa;
+  --componentsButtonColorPrimaryTextBackgroundIsActive: #91caf7;
+  --componentsButtonColorPrimaryTextBackgroundIsDisabled: rgba(255, 255, 255, 0);
+  --componentsButtonColorPrimaryTextTextDefault: #0e489e;
+  --componentsButtonColorSecondaryFillBackgroundDefault: #68686c;
+  --componentsButtonColorSecondaryFillBackgroundIsHover: #909094;
+  --componentsButtonColorSecondaryFillBackgroundIsActive: #555559;
+  --componentsButtonColorSecondaryFillBackgroundIsDisabled: #909094;
+  --componentsButtonColorSecondaryFillBorderDefault: #555559;
+  --componentsButtonColorSecondaryFillBorderIsHover: #68686c;
+  --componentsButtonColorSecondaryFillBorderIsActive: #37373a;
+  --componentsButtonColorSecondaryFillBorderIsDisabled: #909094;
+  --componentsButtonColorSecondaryFillTextDefault: #ffffff;
+  --componentsButtonColorSecondaryOutlineBackgroundDefault: #ffffff;
+  --componentsButtonColorSecondaryOutlineBackgroundIsHover: #f0f0f4;
+  --componentsButtonColorSecondaryOutlineBackgroundIsActive: #e6e6ea;
+  --componentsButtonColorSecondaryOutlineBackgroundIsDisabled: #ffffff;
+  --componentsButtonColorSecondaryOutlineBorderDefault: #909094;
+  --componentsButtonColorSecondaryOutlineBorderIsHover: #68686c;
+  --componentsButtonColorSecondaryOutlineBorderIsActive: #555559;
+  --componentsButtonColorSecondaryOutlineBorderIsDisabled: #909094;
+  --componentsButtonColorSecondaryOutlineTextDefault: #17171a;
+  --componentsButtonColorSecondaryTextBackgroundDefault: rgba(255, 255, 255, 0);
+  --componentsButtonColorSecondaryTextBackgroundIsHover: #f0f0f4;
+  --componentsButtonColorSecondaryTextBackgroundIsActive: #e6e6ea;
+  --componentsButtonColorSecondaryTextBackgroundIsDisabled: rgba(255, 255, 255, 0);
+  --componentsButtonColorSecondaryTextTextDefault: #17171a;
+  --componentsButtonColorNegativeFillBackgroundDefault: #fa332d;
+  --componentsButtonColorNegativeFillBackgroundIsHover: #f54949;
+  --componentsButtonColorNegativeFillBackgroundIsActive: #eb272c;
+  --componentsButtonColorNegativeFillBackgroundIsDisabled: #909094;
+  --componentsButtonColorNegativeFillBorderDefault: #eb272c;
+  --componentsButtonColorNegativeFillBorderIsHover: #fa332d;
+  --componentsButtonColorNegativeFillBorderIsActive: #d61a26;
+  --componentsButtonColorNegativeFillBorderIsDisabled: #909094;
+  --componentsButtonColorNegativeFillTextDefault: #ffffff;
+  --componentsButtonColorNegativeOutlineBackgroundDefault: #ffffff;
+  --componentsButtonColorNegativeOutlineBackgroundIsHover: #ffcbd1;
+  --componentsButtonColorNegativeOutlineBackgroundIsActive: #f39697;
+  --componentsButtonColorNegativeOutlineBackgroundIsDisabled: #ffffff;
+  --componentsButtonColorNegativeOutlineBorderDefault: #f54949;
+  --componentsButtonColorNegativeOutlineBorderIsHover: #fa332d;
+  --componentsButtonColorNegativeOutlineBorderIsActive: #eb272c;
+  --componentsButtonColorNegativeOutlineBorderIsDisabled: #909094;
+  --componentsButtonColorNegativeOutlineTextDefault: #be0011;
+  --componentsButtonColorNegativeTextBackgroundDefault: rgba(255, 255, 255, 0);
+  --componentsButtonColorNegativeTextBackgroundIsHover: #ffcbd1;
+  --componentsButtonColorNegativeTextBackgroundIsActive: #f39697;
+  --componentsButtonColorNegativeTextBackgroundIsDisabled: rgba(255, 255, 255, 0);
+  --componentsButtonColorNegativeTextTextDefault: #be0011;
+  --componentsButtonSizeSmall: 32px;
+  --componentsButtonSizeMedium: 40px;
+  --componentsButtonSizeLarge: 48px;
+  --componentsButtonRadiusDefault: 4px;
+  --componentsButtonRadiusOutline: 6px;
+}
