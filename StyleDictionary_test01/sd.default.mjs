@@ -1,0 +1,20 @@
+// sd.default.mjs
+import StyleDictionary from 'style-dictionary';
+import { register } from '@tokens-studio/sd-transforms';
+register(StyleDictionary);
+
+export default {
+  preprocessors: ['tokens-studio'],
+  source: ['.tmp/default.json'],
+  platforms: {
+    css: {
+      transformGroup: 'tokens-studio',
+      buildPath: 'dist/css/',
+      files: [{
+        destination: 'tokens.default.css',
+        format: 'css/variables',
+        options: { selector: ':root', outputReferences: false }
+      }]
+    }
+  }
+};

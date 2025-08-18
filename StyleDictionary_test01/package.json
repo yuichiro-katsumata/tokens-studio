@@ -1,0 +1,16 @@
+{
+  "name": "tokens-to-css",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "node tools/prepare-themes.mjs",
+    "build": "npm run build:default && npm run build:sub",
+    "build:all": "npm run prebuild && npm run build",
+    "build:default": "style-dictionary build --config sd.default.mjs",
+    "build:sub": "style-dictionary build --config sd.subTheme01.mjs"
+  },
+  "devDependencies": {
+    "style-dictionary": "^5.0.1",
+    "@tokens-studio/sd-transforms": "^2.0.1"
+  }
+}
