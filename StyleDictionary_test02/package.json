@@ -7,7 +7,8 @@
     "build:default": "style-dictionary build --config sd.default.mjs",
     "build:sub": "style-dictionary build --config sd.subTheme01.mjs",
     "watch:default": "style-dictionary build --config sd.default.mjs --watch",
-    "watch:sub": "style-dictionary build --config sd.subTheme01.mjs --watch"
+    "watch:sub": "style-dictionary build --config sd.subTheme01.mjs --watch",
+    "clean": "rimraf dist .tmp || rm -rf dist .tmp"
   },
   "devDependencies": {
     "style-dictionary": "^5.0.1",
