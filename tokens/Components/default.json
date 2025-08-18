@@ -1,0 +1,410 @@
+{
+  "spinner": {
+    "size": {
+      "small": {
+        "$type": "dimension",
+        "$value": "{spacing.twoExtraSmall}"
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{spacing.extraSmall}"
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "{spacing.medium}"
+      }
+    }
+  },
+  "icon": {
+    "size": {
+      "small": {
+        "$type": "dimension",
+        "$value": "{spacing.twoExtraSmall}"
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{spacing.extraSmall}"
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "{spacing.medium}"
+      }
+    }
+  },
+  "button": {
+    "color": {
+      "primary": {
+        "fill": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.primary.base}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.primary.light}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.primary.dark}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.primary.dark}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.primary.base}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.primary.darken}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.text.onPrimary}"
+            }
+          }
+        },
+        "outline": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.white}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.primary.lightest}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.primary.lighten}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.white}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.primary.light}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.primary.base}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.primary.dark}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.primary.darkest}"
+            }
+          }
+        },
+        "text": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.transparnent}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.primary.lightest}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.primary.lighten}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.transparnent}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.primary.darkest}"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "fill": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.neutral.base}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.neutral.dark}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.neutral.dark}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.neutral.base}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.neutral.darken}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.text.onPrimary}"
+            }
+          }
+        },
+        "outline": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.white}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.neutral.lightest}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.neutral.lighten}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.white}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.neutral.base}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.neutral.dark}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.neutral.darkest}"
+            }
+          }
+        },
+        "text": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.transparnent}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.neutral.lightest}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.neutral.lighten}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.transparnent}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.neutral.darkest}"
+            }
+          }
+        }
+      },
+      "negative": {
+        "fill": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.error.base}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.error.light}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.error.dark}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.error.dark}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.error.base}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.error.darken}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.text.onPrimary}"
+            }
+          }
+        },
+        "outline": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.white}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.error.lightest}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.error.lighten}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.white}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.error.light}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.error.base}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.error.dark}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.neutral.light}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.error.darkest}"
+            }
+          }
+        },
+        "text": {
+          "background": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.transparnent}"
+            },
+            "isHover": {
+              "$type": "color",
+              "$value": "{color.error.lightest}"
+            },
+            "isActive": {
+              "$type": "color",
+              "$value": "{color.error.lighten}"
+            },
+            "isDisabled": {
+              "$type": "color",
+              "$value": "{color.transparnent}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.error.darkest}"
+            }
+          }
+        }
+      }
+    },
+    "size": {
+      "small": {
+        "$type": "dimension",
+        "$value": "{spacing.medium}"
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{spacing.extraLarge}"
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "{spacing.threeExtraLarge}"
+      }
+    },
+    "radius": {
+      "default": {
+        "$type": "dimension",
+        "$value": "{radius.medium}"
+      },
+      "outline": {
+        "$type": "dimension",
+        "$value": "{radius.large}"
+      }
+    }
+  }
+}

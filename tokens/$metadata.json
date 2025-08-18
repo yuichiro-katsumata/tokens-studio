@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "Primitives/default",
+    "Primitives/subTheme01",
+    "Semantics/default",
+    "Semantics/subTheme01",
+    "Components/default",
+    "Components/subTheme01"
+  ]
+}
