@@ -1,0 +1,200 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+[data-theme="subTheme01"] {
+  --colorPrimaryLightest: #faccd0;
+  --colorPrimaryLighten: #f39697;
+  --colorPrimaryLight: #f54949;
+  --colorPrimaryBase: #fa332d;
+  --colorPrimaryDark: #eb272c;
+  --colorPrimaryDarken: #d61a26;
+  --colorPrimaryDarkest: #be0011;
+  --colorSecondaryLightest: #e8c0ef;
+  --colorSecondaryLighten: #da95e5;
+  --colorSecondaryLight: #b018c9;
+  --colorSecondaryBase: #a217c3;
+  --colorSecondaryDark: #8d12bc;
+  --colorSecondaryDarken: #7a0fb5;
+  --colorSecondaryDarkest: #5608ab;
+  --colorInfoLightest: #bbdefa;
+  --colorInfoLighten: #91caf7;
+  --colorInfoLight: #2696f0;
+  --colorInfoBase: #2288e2;
+  --colorInfoDark: #1c76cf;
+  --colorInfoDarken: #1765bd;
+  --colorInfoDarkest: #0e489e;
+  --colorSuccessLightest: #c6eec7;
+  --colorSuccessLighten: #a0e4a2;
+  --colorSuccessLight: #18c738;
+  --colorSuccessBase: #00b72e;
+  --colorSuccessDark: #00a421;
+  --colorSuccessDarken: #009311;
+  --colorSuccessDarkest: #006600;
+  --colorWarningLightest: #f5f1bf;
+  --colorWarningLighten: #efe795;
+  --colorWarningLight: #e1d22f;
+  --colorWarningBase: #dfc02a;
+  --colorWarningDark: #dcaa22;
+  --colorWarningDarken: #d9931a;
+  --colorWarningDarkest: #d36d09;
+  --colorErrorLightest: #faccd0;
+  --colorErrorLighten: #f39697;
+  --colorErrorLight: #f54949;
+  --colorErrorBase: #fa332d;
+  --colorErrorDark: #eb272c;
+  --colorErrorDarken: #d61a26;
+  --colorErrorDarkest: #be0011;
+  --colorNeutralLightest: #f0f0f4;
+  --colorNeutralLighten: #e6e6ea;
+  --colorNeutralLight: #909094;
+  --colorNeutralBase: #68686c;
+  --colorNeutralDark: #555559;
+  --colorNeutralDarken: #37373a;
+  --colorNeutralDarkest: #17171a;
+  --colorTextPrimary: #262629; /** 標準の文字色 */
+  --colorTextSecondary: #909094; /** 補足文の文字色 */
+  --colorTextDisabled: #b0b0b5; /** 非活性時の文字色 */
+  --colorTextOnPrimary: #ffffff; /** 標準の文字色の反転 */
+  --colorTextLinkDefault: #1155ad; /** 標準のテキストリンクの色 */
+  --colorTextLinkHover: #1765bd; /** ホバー時のテキストリンクの色 */
+  --colorTextLinkVisited: #0e489e; /** 訪問済みのテキストリンクの色 */
+  --colorLayerBackground: #f0f0f4; /** 標準の背景色 */
+  --colorLayerSurface: #ffffff; /** 標準の前景色 */
+  --colorLayerOverlay: rgba(0, 0, 0, 0.4); /** ダイアログなどに使用する背面レイヤー */
+  --colorBorderDefault: #b0b0b5; /** 境界線に使用する色 */
+  --colorBorderDisabled: #e6e6ea; /** 非活性時の境界線に使用する色 */
+  --colorBorderNegative: #fa332d; /** エラー時の境界線に使用する色 */
+  --colorBorderOutline: #1c76cf; /** アウトラインの境界線に使用する色 */
+  --typographyDisplayLargeNormal: 400 40px/1.2 'Noto Sans JP';
+  --typographyDisplayLargeStrong: 700 40px/1.2 'Noto Sans JP';
+  --typographyDisplayMediumNormal: 400 36px/1.2 'Noto Sans JP';
+  --typographyDisplayMediumStrong: 700 36px/1.2 'Noto Sans JP';
+  --typographyDisplaySmallStrong: 700 32px/1.2 'Noto Sans JP';
+  --typographyDisplaySmallNormal: 400 32px/1.2 'Noto Sans JP';
+  --typographyHeadlineLargeNormal: 400 28px/1.2 'Noto Sans JP';
+  --typographyHeadlineLargeStrong: 700 28px/1.2 'Noto Sans JP';
+  --typographyHeadlineMediumNormal: 400 24px/1.2 'Noto Sans JP';
+  --typographyHeadlineMediumStrong: 700 24px/1.2 'Noto Sans JP';
+  --typographyHeadlineSmallNormal: 400 20px/1.4 'Noto Sans JP';
+  --typographyHeadlineSmallStrong: 700 20px/1.4 'Noto Sans JP';
+  --typographyBodyLargeNormal: 400 18px/1.4 'Noto Sans JP';
+  --typographyBodyLargeStrong: 700 18px/1.4 'Noto Sans JP';
+  --typographyBodyMediumNormal: 400 16px/1.6 'Noto Sans JP';
+  --typographyBodyMediumStrong: 700 16px/1.6 'Noto Sans JP';
+  --typographyBodySmallNormal: 400 14px/1.6 'Noto Sans JP';
+  --typographyBodySmallStrong: 700 14px/1.6 'Noto Sans JP';
+  --typographyCaptionLargeNormal: 400 12px/1.2 'Noto Sans JP';
+  --typographyCaptionLargeStrong: 700 12px/1.2 'Noto Sans JP';
+  --typographyCaptionMediumNormal: 400 11px/1.2 'Noto Sans JP';
+  --typographyCaptionMediumStrong: 700 11px/1.2 'Noto Sans JP';
+  --typographyCaptionSmallNormal: 400 10px/1.2 'Noto Sans JP';
+  --typographyCaptionSmallStrong: 700 10px/1.2 'Noto Sans JP';
+  --borderDefault: 1px solid #b0b0b5;
+  --borderDisabled: 1px solid #e6e6ea;
+  --borderNegative: 1px solid #fa332d;
+  --borderOutline: 2px solid #1c76cf;
+  --spacingNone: 0px;
+  --spacingFiveExtraSmall: 4px;
+  --spacingFourExtraSmall: 8px;
+  --spacingThreeExtraSmall: 12px;
+  --spacingTwoExtraSmall: 16px;
+  --spacingExtraSmall: 24px;
+  --spacingSmall: 28px;
+  --spacingMedium: 32px;
+  --spacingLarge: 36px;
+  --spacingExtraLarge: 40px;
+  --spacingTwoExtraLarge: 44px;
+  --spacingThreeExtraLarge: 48px;
+  --spacingFourExtraLarge: 56px;
+  --spacingFiveExtraLarge: 64px;
+  --radiusNone: 0px; /** 角丸を適用しない直角なスタイル */
+  --radiusSmall: 2px; /** 小さな角丸 */
+  --radiusMedium: 4px; /** 標準的な角丸 */
+  --radiusLarge: 6px; /** 大きな角丸 */
+  --radiusFull: 9999px; /** 円形またはピル形状を作るための角丸 */
+  --elevationNone: 0 0 0 0 #ffffff;
+  --elevationLow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  --elevationMedium: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+  --elevationHigh: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+  --spinnerSizeSmall: 16px;
+  --spinnerSizeMedium: 24px;
+  --spinnerSizeLarge: 32px;
+  --iconSizeSmall: 16px;
+  --iconSizeMedium: 24px;
+  --iconSizeLarge: 32px;
+  --buttonColorPrimaryFillBackgroundDefault: #fa332d;
+  --buttonColorPrimaryFillBackgroundIsHover: #f54949;
+  --buttonColorPrimaryFillBackgroundIsActive: #eb272c;
+  --buttonColorPrimaryFillBackgroundIsDisabled: #909094;
+  --buttonColorPrimaryFillBorderDefault: #eb272c;
+  --buttonColorPrimaryFillBorderIsHover: #fa332d;
+  --buttonColorPrimaryFillBorderIsActive: #d61a26;
+  --buttonColorPrimaryFillBorderIsDisabled: #909094;
+  --buttonColorPrimaryFillTextDefault: #ffffff;
+  --buttonColorPrimaryOutlineBackgroundDefault: #ffffff;
+  --buttonColorPrimaryOutlineBackgroundIsHover: #faccd0;
+  --buttonColorPrimaryOutlineBackgroundIsActive: #f39697;
+  --buttonColorPrimaryOutlineBackgroundIsDisabled: #ffffff;
+  --buttonColorPrimaryOutlineBorderDefault: #f54949;
+  --buttonColorPrimaryOutlineBorderIsHover: #fa332d;
+  --buttonColorPrimaryOutlineBorderIsActive: #eb272c;
+  --buttonColorPrimaryOutlineBorderIsDisabled: #909094;
+  --buttonColorPrimaryOutlineTextDefault: #be0011;
+  --buttonColorPrimaryTextBackgroundDefault: rgba(255, 255, 255, 0);
+  --buttonColorPrimaryTextBackgroundIsHover: #faccd0;
+  --buttonColorPrimaryTextBackgroundIsActive: #f39697;
+  --buttonColorPrimaryTextBackgroundIsDisabled: rgba(255, 255, 255, 0);
+  --buttonColorPrimaryTextTextDefault: #be0011;
+  --buttonColorSecondaryFillBackgroundDefault: #68686c;
+  --buttonColorSecondaryFillBackgroundIsHover: #909094;
+  --buttonColorSecondaryFillBackgroundIsActive: #555559;
+  --buttonColorSecondaryFillBackgroundIsDisabled: #909094;
+  --buttonColorSecondaryFillBorderDefault: #555559;
+  --buttonColorSecondaryFillBorderIsHover: #68686c;
+  --buttonColorSecondaryFillBorderIsActive: #37373a;
+  --buttonColorSecondaryFillBorderIsDisabled: #909094;
+  --buttonColorSecondaryFillTextDefault: #ffffff;
+  --buttonColorSecondaryOutlineBackgroundDefault: #ffffff;
+  --buttonColorSecondaryOutlineBackgroundIsHover: #f0f0f4;
+  --buttonColorSecondaryOutlineBackgroundIsActive: #e6e6ea;
+  --buttonColorSecondaryOutlineBackgroundIsDisabled: #ffffff;
+  --buttonColorSecondaryOutlineBorderDefault: #909094;
+  --buttonColorSecondaryOutlineBorderIsHover: #68686c;
+  --buttonColorSecondaryOutlineBorderIsActive: #555559;
+  --buttonColorSecondaryOutlineBorderIsDisabled: #909094;
+  --buttonColorSecondaryOutlineTextDefault: #17171a;
+  --buttonColorSecondaryTextBackgroundDefault: rgba(255, 255, 255, 0);
+  --buttonColorSecondaryTextBackgroundIsHover: #f0f0f4;
+  --buttonColorSecondaryTextBackgroundIsActive: #e6e6ea;
+  --buttonColorSecondaryTextBackgroundIsDisabled: rgba(255, 255, 255, 0);
+  --buttonColorSecondaryTextTextDefault: #17171a;
+  --buttonColorNegativeFillBackgroundDefault: #fa332d;
+  --buttonColorNegativeFillBackgroundIsHover: #f54949;
+  --buttonColorNegativeFillBackgroundIsActive: #eb272c;
+  --buttonColorNegativeFillBackgroundIsDisabled: #909094;
+  --buttonColorNegativeFillBorderDefault: #eb272c;
+  --buttonColorNegativeFillBorderIsHover: #fa332d;
+  --buttonColorNegativeFillBorderIsActive: #d61a26;
+  --buttonColorNegativeFillBorderIsDisabled: #909094;
+  --buttonColorNegativeFillTextDefault: #ffffff;
+  --buttonColorNegativeOutlineBackgroundDefault: #ffffff;
+  --buttonColorNegativeOutlineBackgroundIsHover: #faccd0;
+  --buttonColorNegativeOutlineBackgroundIsActive: #f39697;
+  --buttonColorNegativeOutlineBackgroundIsDisabled: #ffffff;
+  --buttonColorNegativeOutlineBorderDefault: #f54949;
+  --buttonColorNegativeOutlineBorderIsHover: #fa332d;
+  --buttonColorNegativeOutlineBorderIsActive: #eb272c;
+  --buttonColorNegativeOutlineBorderIsDisabled: #909094;
+  --buttonColorNegativeOutlineTextDefault: #be0011;
+  --buttonColorNegativeTextBackgroundDefault: rgba(255, 255, 255, 0);
+  --buttonColorNegativeTextBackgroundIsHover: #faccd0;
+  --buttonColorNegativeTextBackgroundIsActive: #f39697;
+  --buttonColorNegativeTextBackgroundIsDisabled: rgba(255, 255, 255, 0);
+  --buttonColorNegativeTextTextDefault: #be0011;
+  --buttonSizeSmall: 32px;
+  --buttonSizeMedium: 44px;
+  --buttonSizeLarge: 56px;
+  --buttonRadiusDefault: 9999px;
+  --buttonRadiusOutline: 9999px;
+}
