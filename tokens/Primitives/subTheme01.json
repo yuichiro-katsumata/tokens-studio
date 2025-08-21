@@ -647,15 +647,15 @@
     "letterSpacing": {
       "tight": {
         "$type": "letterSpacing",
-        "$value": "-1px"
+        "$value": "-6.25 %"
       },
       "normal": {
         "$type": "letterSpacing",
-        "$value": "0px"
+        "$value": "0%"
       },
       "wide": {
         "$type": "letterSpacing",
-        "$value": "1px"
+        "$value": "6.25 %"
       }
     }
   },
