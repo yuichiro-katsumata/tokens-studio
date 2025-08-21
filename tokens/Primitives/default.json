@@ -651,16 +651,16 @@
     "letterSpacing": {
       "tight": {
         "$type": "letterSpacing",
-        "$value": "-1px",
+        "$value": "-6.25 %",
         "$description": "type:\"letterSpacing\" はDesignTokenFormatModuleの定義ではなく、TokenStudio特有の型で、StyleDictionalyの拡張機能で複合トークンに変換する想定をしています。https://github.com/Tokens-studio/sd-transforms/?tab=readme-ov-file#using-the-preprocessor"
       },
       "normal": {
         "$type": "letterSpacing",
-        "$value": "0px"
+        "$value": "0%"
       },
       "wide": {
         "$type": "letterSpacing",
-        "$value": "1px"
+        "$value": "6.25 %"
       }
     }
   },
