@@ -1,0 +1,873 @@
+{
+  "color": {
+    "default": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.gray.100}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.gray.950}"
+      },
+      "foreground-inverse": {
+        "$type": "color",
+        "$value": "{color.white}"
+      },
+      "foreground-light": {
+        "$type": "color",
+        "$value": "{color.gray.500}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.gray.300}"
+      }
+    },
+    "form": {
+      "border": {
+        "$type": "color",
+        "$value": "{color.gray.300}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{color.white}"
+      },
+      "selection": {
+        "$type": "color",
+        "$value": "{color.blue.600}"
+      }
+    },
+    "disabled": {
+      "background-subtle": {
+        "$type": "color",
+        "$value": "{color.gray.100}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{color.gray.300}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.gray.400}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.gray.300}"
+      }
+    },
+    "container": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.white}"
+      }
+    },
+    "popover": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.white}"
+      }
+    },
+    "primary": {
+      "background-subtle": {
+        "$type": "color",
+        "$value": "{color.blue.50}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{color.blue.600}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.blue.700}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.blue.600}"
+      }
+    },
+    "info": {
+      "background-subtle": {
+        "$type": "color",
+        "$value": "{color.blue.50}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{color.blue.600}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.blue.700}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.blue.600}"
+      }
+    },
+    "success": {
+      "background-subtle": {
+        "$type": "color",
+        "$value": "{color.teal.50}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{color.teal.600}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.teal.700}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.teal.600}"
+      }
+    },
+    "warning": {
+      "background-subtle": {
+        "$type": "color",
+        "$value": "{color.amber.50}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{color.amber.600}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.amber.800}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.orange.600}"
+      }
+    },
+    "danger": {
+      "background-subtle": {
+        "$type": "color",
+        "$value": "{color.red.50}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{color.red.600}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.red.700}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.red.600}"
+      }
+    },
+    "neutral": {
+      "background-subtle": {
+        "$type": "color",
+        "$value": "{color.gray.100}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{color.gray.900}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.gray.900}"
+      }
+    },
+    "overlay": {
+      "modal": {
+        "$type": "color",
+        "$value": "rgba(0,0,0,0.6)"
+      },
+      "on-background-hover": {
+        "$type": "color",
+        "$value": "rgba(0,0,0,0.05)"
+      },
+      "on-background-hover-inverse": {
+        "$type": "color",
+        "$value": "rgba(255,255,255,0.2)"
+      },
+      "on-background-active": {
+        "$type": "color",
+        "$value": "rgba(0,0,0,0.1)"
+      },
+      "on-background-active-inverse": {
+        "$type": "color",
+        "$value": "rgba(255,255,255,0.4)"
+      }
+    },
+    "link": {
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.blue.700}"
+      },
+      "foreground-hover": {
+        "$type": "color",
+        "$value": "{color.blue.800}"
+      },
+      "foreground-visit": {
+        "$type": "color",
+        "$value": "{color.blue.900}"
+      }
+    },
+    "focus": {
+      "outline": {
+        "$type": "color",
+        "$value": "{color.blue.600}"
+      }
+    }
+  },
+  "typography": {
+    "headline": {
+      "3xl": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.7xl}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "ページや画面の最上位タイトルに使用する特大サイズの見出し（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.7xl}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "ページや画面の最上位タイトルに使用する特大サイズの見出し（強調・太字）"
+        }
+      },
+      "2xl": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.6xl}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "主要セクションタイトルに使用する大きな見出し（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.6xl}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "主要セクションタイトルに使用する大きな見出し（強調・太字）"
+        }
+      },
+      "xl": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.5xl}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "セクションタイトルやカードタイトルに使用する中〜大サイズの見出し（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.5xl}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "セクションタイトルやカードタイトルに使用する中〜大サイズの見出し（強調・太字）"
+        }
+      },
+      "lg": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.4xl}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "ブロック内の小見出しやラベル的な見出しに使用する中サイズ（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.4xl}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "ブロック内の小見出しやラベル的な見出しに使用する中サイズ（強調・太字）"
+        }
+      },
+      "md": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.3xl}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "カードやモジュール内の小さな見出しに使用するサイズ（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.3xl}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "カードやモジュール内の小さな見出しに使用するサイズ（強調・太字）"
+        }
+      },
+      "sm": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.2xl}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "サブタイトルやラベル用途の非常に小さい見出し（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.2xl}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "サブタイトルやラベル用途の非常に小さい見出し（強調・太字）"
+        }
+      },
+      "xs": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.xl}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "アイコンラベルや極小ヘッダーなどに使用する最小クラスの見出し（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.xl}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "アイコンラベルや極小ヘッダーなどに使用する最小クラスの見出し（強調・太字）"
+        }
+      }
+    },
+    "body": {
+      "lg": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.lg}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.relaxed}"
+          },
+          "$description": "UIや重要な説明文の中で強調箇所に使用する特大サイズの本文（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.lg}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.relaxed}"
+          },
+          "$description": "LPや重要な説明文の中で強調箇所に使用する特大サイズの本文（太字）"
+        }
+      },
+      "md": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.md}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.normal}"
+          },
+          "$description": "標準的な本文の中で強調箇所に使用する大きめのテキストサイズ（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.md}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.normal}"
+          },
+          "$description": "標準的な本文の中で強調箇所に使用する大きめのテキストサイズ（太字）"
+        }
+      },
+      "sm": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.sm}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.normal}"
+          },
+          "$description": "UI 全体で最も頻出となる標準の本文サイズ（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.sm}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.normal}"
+          },
+          "$description": "標準本文の中で強調したいテキストに使用するサイズ（太字）"
+        }
+      },
+      "xs": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.xs}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "補足説明や注釈の中で強調したい箇所に使用する小さめの本文サイズ（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.xs}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "補足説明や注釈の中で強調したい箇所に使用する小さめの本文サイズ（太字）"
+        }
+      }
+    },
+    "label": {
+      "lg": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.md}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "フォームラベルや項目名などに使用する大きめのラベルテキスト（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.md}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "フォームラベルや項目名などを強調したい場合に使用する大きめのラベルテキスト（太字）"
+        }
+      },
+      "md": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.sm}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "標準的なフォームラベルやテーブルヘッダーに使用するラベルテキスト（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.sm}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "標準的なフォームラベルやテーブルヘッダーを強調するためのラベルテキスト（太字）"
+        }
+      },
+      "sm": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.xs}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "タグやバッジ、補助的なラベルなどに使用する小さいラベルテキスト（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.xs}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "タグやバッジなどで強調したいラベルに使用する小さいラベルテキスト（太字）"
+        }
+      },
+      "xs": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.2xs}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "ラベルの補足説明や注釈など、情報量の少ないテキストに使用する極小サイズ（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.2xs}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.tight}"
+          },
+          "$description": "ラベルの補足説明や注釈の中で強調箇所に使用する極小サイズ（太字）"
+        }
+      }
+    }
+  },
+  "spacing": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{scale.0}"
+    },
+    "4xs": {
+      "$type": "dimension",
+      "$value": "{scale.2}"
+    },
+    "3xs": {
+      "$type": "dimension",
+      "$value": "{scale.3}"
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "{scale.4}"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "{scale.5}"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{scale.7}"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{scale.9}"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{scale.10}"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "{scale.11}"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "{scale.12}"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "{scale.13}"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "{scale.14}"
+    },
+    "5xl": {
+      "$type": "dimension",
+      "$value": "{scale.15}"
+    },
+    "6xl": {
+      "$type": "dimension",
+      "$value": "{scale.16}"
+    },
+    "7xl": {
+      "$type": "dimension",
+      "$value": "{scale.17}"
+    },
+    "8xl": {
+      "$type": "dimension",
+      "$value": "{scale.18}"
+    },
+    "9xl": {
+      "$type": "dimension",
+      "$value": "{scale.19}"
+    },
+    "10xl": {
+      "$type": "dimension",
+      "$value": "{scale.20}"
+    }
+  },
+  "sizing": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{scale.0}"
+    },
+    "11xs": {
+      "$type": "dimension",
+      "$value": "{scale.1}"
+    },
+    "10xs": {
+      "$type": "dimension",
+      "$value": "{scale.2}"
+    },
+    "9xs": {
+      "$type": "dimension",
+      "$value": "{scale.3}"
+    },
+    "8xs": {
+      "$type": "dimension",
+      "$value": "{scale.4}"
+    },
+    "7xs": {
+      "$type": "dimension",
+      "$value": "{scale.5}"
+    },
+    "6xs": {
+      "$type": "dimension",
+      "$value": "{scale.7}"
+    },
+    "5xs": {
+      "$type": "dimension",
+      "$value": "{scale.9}"
+    },
+    "4xs": {
+      "$type": "dimension",
+      "$value": "{scale.10}"
+    },
+    "3xs": {
+      "$type": "dimension",
+      "$value": "{scale.11}"
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "{scale.12}"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "{scale.13}"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{scale.14}"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{scale.15}"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{scale.16}"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "{scale.17}"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "{scale.18}"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "{scale.19}"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "{scale.20}"
+    },
+    "5xl": {
+      "$type": "dimension",
+      "$value": "{scale.21}"
+    },
+    "6xl": {
+      "$type": "dimension",
+      "$value": "{scale.22}"
+    },
+    "7xl": {
+      "$type": "dimension",
+      "$value": "{scale.23}"
+    },
+    "8xl": {
+      "$type": "dimension",
+      "$value": "{scale.24}"
+    },
+    "9xl": {
+      "$type": "dimension",
+      "$value": "{scale.25}"
+    },
+    "10xl": {
+      "$type": "dimension",
+      "$value": "{scale.26}"
+    },
+    "11xl": {
+      "$type": "dimension",
+      "$value": "{scale.27}"
+    },
+    "12xl": {
+      "$type": "dimension",
+      "$value": "{scale.28}"
+    },
+    "13xl": {
+      "$type": "dimension",
+      "$value": "{scale.29}"
+    },
+    "14xl": {
+      "$type": "dimension",
+      "$value": "{scale.30}"
+    },
+    "15xl": {
+      "$type": "dimension",
+      "$value": "{scale.31}"
+    }
+  },
+  "container": {
+    "5xs": {
+      "$type": "dimension",
+      "$value": "{scale.30}"
+    },
+    "4xs": {
+      "$type": "dimension",
+      "$value": "{scale.31}"
+    },
+    "3xs": {
+      "$type": "dimension",
+      "$value": "{scale.32}"
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "{scale.33}"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "{scale.34}"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{scale.35}"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{scale.36}"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{scale.37}"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "{scale.38}"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "{scale.39}"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "{scale.40}"
+    }
+  },
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{scale.0}",
+      "$description": "角丸を適用しない直角なスタイル"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{scale.3}",
+      "$description": "小さな角丸（テキスト入力やバッジなど、小さな要素に使用）"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{scale.4}",
+      "$description": "標準的な角丸（多くのボタンやカードに使用）"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{scale.5}",
+      "$description": "大きな角丸（特徴的なカードやコンテナに使用）"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px",
+      "$description": "円形またはピル形状を作るための角丸（バッジやトグルなどに使用）"
+    }
+  },
+  "shadow": {
+    "none": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "{scale.0}",
+        "y": "{scale.0}",
+        "blur": "{scale.0}",
+        "spread": "{scale.0}",
+        "color": "rgba(255,255,255,0)",
+        "type": "dropShadow"
+      },
+      "$description": "影を持たないフラットな状態（背景と同一レイヤーの要素に使用）"
+    },
+    "sm": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "{scale.0}",
+        "y": "{scale.1}",
+        "blur": "{scale.2}",
+        "spread": "{scale.0}",
+        "color": "rgba(0,0,0,0.2)",
+        "type": "dropShadow"
+      },
+      "$description": "わずかに浮かせたい要素に使用する低いエレベーション（ツールチップなど）"
+    },
+    "md": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "{scale.0}",
+        "y": "{scale.3}",
+        "blur": "{scale.5}",
+        "spread": "{scale.0}",
+        "color": "rgba(0,0,0,0.2)",
+        "type": "dropShadow"
+      },
+      "$description": "周囲より目立たせたい要素に使用する中程度のエレベーション（モーダルやドロップダウンなど）"
+    },
+    "lg": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "{scale.0}",
+        "y": "{scale.3}",
+        "blur": "{scale.6}",
+        "spread": "{scale.0}",
+        "color": "rgba(0,0,0,0.3)",
+        "type": "dropShadow"
+      },
+      "$description": "最前面に表示される重要な要素に使用する高いエレベーション（トーストなど）　"
+    }
+  }
+}
