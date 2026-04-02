@@ -1,0 +1,8 @@
+{
+  "tokenSetOrder": [
+    "Primitives/default",
+    "Primitives/defaultDark",
+    "Semantics/default",
+    "Semantics/defaultDark"
+  ]
+}
