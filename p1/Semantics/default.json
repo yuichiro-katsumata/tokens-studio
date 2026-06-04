@@ -33,7 +33,7 @@
       },
       "selection": {
         "$type": "color",
-        "$value": "{color.blue.600}"
+        "$value": "{color.sky.500}"
       }
     },
     "disabled": {
@@ -69,37 +69,37 @@
     "primary": {
       "background-subtle": {
         "$type": "color",
-        "$value": "{color.blue.50}"
+        "$value": "{color.sky.50}"
       },
       "background": {
         "$type": "color",
-        "$value": "{color.blue.600}"
+        "$value": "{color.sky.500}"
       },
       "foreground": {
         "$type": "color",
-        "$value": "{color.blue.700}"
+        "$value": "{color.sky.700}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.blue.600}"
+        "$value": "{color.sky.500}"
       }
     },
     "info": {
       "background-subtle": {
         "$type": "color",
-        "$value": "{color.blue.50}"
+        "$value": "{color.sky.50}"
       },
       "background": {
         "$type": "color",
-        "$value": "{color.blue.600}"
+        "$value": "{color.sky.500}"
       },
       "foreground": {
         "$type": "color",
-        "$value": "{color.blue.700}"
+        "$value": "{color.sky.700}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.blue.600}"
+        "$value": "{color.sky.500}"
       }
     },
     "success": {
@@ -362,6 +362,50 @@
           "$type": "typography",
           "$value": {
             "fontSize": "{typography.text.xl}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "アイコンラベルや極小ヘッダーなどに使用する最小クラスの見出し（強調・太字）"
+        }
+      },
+      "2xs": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.lg}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "アイコンラベルや極小ヘッダーなどに使用する最小クラスの見出し（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.lg}",
+            "fontWeight": "{typography.font.weight.bold}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "アイコンラベルや極小ヘッダーなどに使用する最小クラスの見出し（強調・太字）"
+        }
+      },
+      "3xs": {
+        "normal": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.md}",
+            "fontWeight": "{typography.font.weight.normal}",
+            "fontFamily": "{typography.font.sans}",
+            "lineHeight": "{typography.leading.snug}"
+          },
+          "$description": "アイコンラベルや極小ヘッダーなどに使用する最小クラスの見出し（通常ウェイト）"
+        },
+        "bold": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "{typography.text.md}",
             "fontWeight": "{typography.font.weight.bold}",
             "fontFamily": "{typography.font.sans}",
             "lineHeight": "{typography.leading.snug}"
@@ -864,10 +908,10 @@
         "y": "{scale.3}",
         "blur": "{scale.6}",
         "spread": "{scale.0}",
-        "color": "rgba(0,0,0,0.3)",
+        "color": "rgba(0,0,0,0.7)",
         "type": "dropShadow"
       },
-      "$description": "最前面に表示される重要な要素に使用する高いエレベーション（トーストなど）　"
+      "$description": "最前面に表示される重要な要素に使用する高いエレベーション（ツールチップ、トーストなど）"
     }
   }
 }

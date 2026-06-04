@@ -353,7 +353,11 @@
       "shadow.none": "S:a445779749ed55c32d96cee1cf39be68478c242a,",
       "shadow.sm": "S:72ddf4785bc1a3242599ef56a376bc6f863771d7,",
       "shadow.md": "S:683552b5cf388296a7ceca4e5e636c805e76ff42,",
-      "shadow.lg": "S:a52a781e1885e9e88ae25356a5a1485a8ac47b85,"
+      "shadow.lg": "S:a52a781e1885e9e88ae25356a5a1485a8ac47b85,",
+      "typography.headline.2xs.normal": "S:03c515a8b74f489d98f9dc700389d37e8bf3223b,",
+      "typography.headline.2xs.bold": "S:4574d5f757c62da0339aba6478f8b63f64921daa,",
+      "typography.headline.3xs.normal": "S:f919624b61827ee697b08deca8dc5528c9e81b8e,",
+      "typography.headline.3xs.bold": "S:15150f24ac4f51a0138df351c49efbca7a770265,"
     },
     "selectedTokenSets": {
       "Semantics/default": "enabled"
@@ -511,7 +515,11 @@
       "shadow.none": "S:a445779749ed55c32d96cee1cf39be68478c242a,",
       "shadow.sm": "S:72ddf4785bc1a3242599ef56a376bc6f863771d7,",
       "shadow.md": "S:683552b5cf388296a7ceca4e5e636c805e76ff42,",
-      "shadow.lg": "S:a52a781e1885e9e88ae25356a5a1485a8ac47b85,"
+      "shadow.lg": "S:a52a781e1885e9e88ae25356a5a1485a8ac47b85,",
+      "typography.headline.2xs.normal": "S:03c515a8b74f489d98f9dc700389d37e8bf3223b,",
+      "typography.headline.2xs.bold": "S:4574d5f757c62da0339aba6478f8b63f64921daa,",
+      "typography.headline.3xs.normal": "S:f919624b61827ee697b08deca8dc5528c9e81b8e,",
+      "typography.headline.3xs.bold": "S:15150f24ac4f51a0138df351c49efbca7a770265,"
     },
     "selectedTokenSets": {
       "Semantics/defaultDark": "enabled"

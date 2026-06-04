@@ -417,47 +417,47 @@
     "sky": {
       "50": {
         "$type": "color",
-        "$value": "oklch(97.7% 0.013 236.62)"
+        "$value": "oklch(95.7% 0.02 254.91)"
       },
       "100": {
         "$type": "color",
-        "$value": "oklch(95.1% 0.026 236.824)"
+        "$value": "oklch(91.2% 0.043 255.92)"
       },
       "200": {
         "$type": "color",
-        "$value": "oklch(90.1% 0.058 230.902)"
+        "$value": "oklch(82.6% 0.09 249.94)"
       },
       "300": {
         "$type": "color",
-        "$value": "oklch(82.8% 0.111 230.318)"
+        "$value": "oklch(73.9% 0.146 243.74)"
       },
       "400": {
         "$type": "color",
-        "$value": "oklch(74.6% 0.16 232.661)"
+        "$value": "oklch(65.1% 0.154 241.8)"
       },
       "500": {
         "$type": "color",
-        "$value": "oklch(68.5% 0.169 237.323)"
+        "$value": "oklch(56.4% 0.133 241.54)"
       },
       "600": {
         "$type": "color",
-        "$value": "oklch(58.8% 0.158 241.966)"
+        "$value": "oklch(48.1% 0.113 241.2)"
       },
       "700": {
         "$type": "color",
-        "$value": "oklch(50% 0.134 242.749)"
+        "$value": "oklch(39.5% 0.093 241.32)"
       },
       "800": {
         "$type": "color",
-        "$value": "oklch(44.3% 0.11 240.79)"
+        "$value": "oklch(30.8% 0.073 242)"
       },
       "900": {
         "$type": "color",
-        "$value": "oklch(39.1% 0.09 240.876)"
+        "$value": "oklch(22.1% 0.053 242.2)"
       },
       "950": {
         "$type": "color",
-        "$value": "oklch(29.3% 0.066 243.157)"
+        "$value": "oklch(17.5% 0.042 242.39)"
       }
     },
     "blue": {
